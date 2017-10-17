@@ -1,0 +1,51 @@
+.clear{
+	clear:both;
+} 
+.main{
+	width:100%;
+}
+.logo {/*div*/
+    width:10%;
+    height:10%;
+    position: absolute;
+     border-radius: 10px;
+ border: 5px solid;
+ margin-left: 20px;
+ margin-top: 20px;
+
+}
+nav{
+ float:right;
+ border-radius: 10px;
+ border: 5px solid;
+padding: 0;
+margin: 0;
+
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: right;
+    margin: 0;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 35px;
+    text-decoration: none;
+    
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}

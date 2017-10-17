@@ -1,0 +1,50 @@
+.recipe_container{
+  max-width: 1000px;
+  position: relative;
+
+  margin:auto;
+  margin-top: 70px;
+}
+.diff {/*div*/
+	position: relative;
+	width: 100%;
+    border-bottom:5px solid;
+
+    float:left;
+
+}
+.image{
+    width:100%;
+}
+.diff_text{
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;  
+}
+.recipe{/*div*/
+    border:5px solid;
+    width:250px;
+    height:100px;
+    overflow:hidden;
+    position:relative;
+    float:left;
+
+}
+.text_for_recipe{
+    bottom:0px;
+    position:absolute;
+    z-index: 1;
+    font-family:sans-serif;
+    color:white;
+    text-shadow:
+        -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+    
+}
+.recipe a:link, .recipe a:visited{
+    color:black;
+    
+    
+}

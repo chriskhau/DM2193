@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Page Title</title>
+	<link href="general.css" rel="stylesheet"/>
+	<link href="carousel.css" rel="stylesheet"/>
+	<script src="home.js" type="text/javascript"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+ 	
+</head>
+<body>
+<div class = "main">
+<div class ="logo">Potato Project
+</div>
+<nav>
+<ul>
+	<li><a href="Game/index.html">Game</a></li>
+	<li><a href="Facts/factsAndUses.html">Facts and Uses</a></li>
+	<li><a href="Recipes/recipes.html">Recipes</a></li>
+	<li><a href="Home.html">Home</a></li>
+</ul>
+</nav>
+<br>
+<div class="slideshow-container">
+
+<div class="mySlides fade"><a href="Recipes/recipes.html">
+  <img src="Hard_recipe1.jpg" style="width:100%; overflow:hidden">
+  <div class="text">Recipes</div> </a>
+</div>
+
+<div class="mySlides fade"><a href="Facts/factsAndUses.html">
+  <img src="clean_rust.jpg" style="width:100%">
+  <div class="text">Potato Uses</div></a>
+</div>
+
+<div class="mySlides fade"><a href="Facts/factsAndUses.html">
+  <img src="potato_fact.jpg" style="width:100%">
+  <div class="text">Potato Facts</div></a>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+
+</div>
+<br>
+
+
+</div>
+<div class="clear"></div>
+<script> showSlides(slideIndex)</script>
+</body>
+</html>

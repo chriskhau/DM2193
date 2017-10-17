@@ -1,0 +1,9 @@
+.text_container{
+	width:500px;
+	position:relative;
+	left:0px;
+	margin-left:50px;
+	margin-top: 150px;
+	border:5px solid;
+	padding-left: 10px;
+}
