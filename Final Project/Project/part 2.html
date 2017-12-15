@@ -1,0 +1,45 @@
+<html>
+<head>
+	<title>Part 2</title>
+	<link href="part 2.css" rel="stylesheet"/>
+	<script src="js/part 2.js" type="text/javascript"></script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>
+
+</head>
+<body onload="load()">
+	<div id="wolf">
+		<img src="Images/wolf.png" height = "200" width = "120"></img>
+	</div>
+	<div id="wolfPuff">
+		<img src="Images/wolf's air.png" id = "puff" height = "50"></img>
+	</div>
+	<button onclick="blowWind()" id="blowWind">Blow the house down</button>
+
+	<div id="house">
+		<img src="Images/straw house.png" height="250" width="250" id = "strawHouse"></img>
+	</div>
+	<div id="brokenHouse">
+		<img src="Images/broken straw house.png" height="100" width = "250" id = "strawHouse"></img>
+	</div>
+	<div id="pig">
+		<img src="Images/straw pig.png" id ="strawPig" height = "150" width = "100"></img>
+	</div>
+
+<button onclick="displayStory()" id="storyButton">
+	<p id="buttonText">One day, as the straw pig was hanging out inside his house, he heard a noise from outside.</p>
+	<div id="smallText">click to continue</div>
+</button>
+ <div id="nextPage">
+    <button><a href="part 3.html"> Next Page
+    </a></button>
+  </div>
+   <div id="previousPage">
+    <button><a href="part 1.html"> Previous
+    </a></button>
+  </div>
+
+</body>
+</html>

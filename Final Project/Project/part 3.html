@@ -1,0 +1,50 @@
+<html>
+<head>
+	<title>Part 3</title>
+	<link href="part 3.css" rel="stylesheet"/>
+	<script src="js/part 3.js" type="text/javascript"></script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>
+
+</head>
+<body onload="load()">
+	<div id="wolf">
+		<img src="Images/wolf.png" height = "200" width = "120"></img>
+	</div>
+	<div id="wolfPuff">
+		<img src="Images/wolf's air.png" id = "puff1" height = "50"></img>
+		<img src="Images/wolf's air.png" id = "puff2" height = "50"></img>
+		<img src="Images/wolf's air.png" id = "puff3" height = "50"></img>
+	</div>
+	<button onclick="blowWind()" id="blowWind">Blow the house down</button>
+
+	<div id="house">
+		<img src="Images/stick house.png" height="250" width="250" id = "strawHouse"></img>
+	</div>
+	<div id="brokenHouse">
+		<img src="Images/broken stick house.png" height="100" width = "250" id = "strawHouse"></img>
+	</div>
+	<div id="pig1">
+		<img src="Images/straw pig.png" height = "150" width = "100"></img>
+	</div>
+	<div id="pig2">
+		<img src="Images/stick pig.png" height = "150" width = "100"></img>
+	</div>
+
+<button onclick="displayStory()" id="storyButton">
+	<p id="buttonText">The straw pig safely makes it into his brother's stick house.</p>
+	<div id="smallText">click to continue</div>
+</button>
+ <div id="nextPage">
+    <button><a href="part 4.html"> Next Page
+    </a></button>
+  </div>
+   <div id="previousPage">
+    <button><a href="part 2.html"> Previous
+    </a></button>
+  </div>
+
+</body>
+</html>

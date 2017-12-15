@@ -1,0 +1,80 @@
+<html>
+<head>
+	<title>Part 1</title>
+	<link href="part 1.css" rel="stylesheet"/>
+	<script src="js/part 1.js" type="text/javascript"></script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>
+
+
+
+</head>
+<body onload="load()">
+
+<button onclick="buildStrawHouse()" id="strawButton">Build Straw House</button>
+<button onclick="buildStickHouse()"id="stickButton">Build Stick House</button>
+<button onclick="buildBrickHouse()" id="brickButton">Build Brick House</button>
+
+<button onclick="displayStory()" id="storyButton">
+	<p id="buttonText">Once upon a time there were three little pigs and the time came for them to leave their home. They all decided that they wanted to build their own house.</p>
+	<div id="smallText">click to continue</div>
+</button>
+
+ <div id="nextPage">
+    <button><a href="part 2.html"> Next Page
+    </a></button>
+  </div>
+<div id="strawStack">
+<img src="Images/straw house.png" height="200" width="200" id = "strawHouse"></img>
+	</div>
+<div id="stickStack">
+<img src="Images/stick house.png" height="200" width="200" id = "stickHouse"></img>
+	</div>
+<div id="brickStack">
+<img src="Images/brick house.png" height="200" width="200" id = "brickHouse"></img>
+	</div>	
+
+<div id="strawStackHolder">
+<div id="strawDiv1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<div id="strawDiv2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+</div>
+
+<div id="stickStackHolder">
+<div id="stickDiv1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<div id="stickDiv2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<div id="stickDiv3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+</div>
+
+<div id="brickStackHolder">
+<div id="brickDiv1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<div id="brickDiv2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<div id="brickDiv3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<div id="brickDiv4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+</div>
+
+<div id="strawStart1">
+	<img src="Images/stack of straw.png" id="strawStack1" draggable="true" ondragstart="drag(event)"></div>
+<div id="strawStart2">
+	<img src="Images/stack of straw.png" id="strawStack2" draggable="true" ondragstart="drag(event)"></div>
+
+<div id="stickStart1">
+	<img src="Images/stack of sticks.png" id="stickStack1" draggable="true" ondragstart="drag(event)"></div>
+<div id="stickStart2">
+	<img src="Images/stack of sticks.png" id="stickStack2" draggable="true" ondragstart="drag(event)"></div>
+<div id="stickStart3">
+	<img src="Images/stack of sticks.png" id="stickStack3" draggable="true" ondragstart="drag(event)"></div>
+
+<div id="brickStart1">
+	<img src="Images/stack of brick.png" id="brickStack1" draggable="true" ondragstart="drag(event)"></div>
+<div id="brickStart2">
+	<img src="Images/stack of brick.png" id="brickStack2" draggable="true" ondragstart="drag(event)"></div>
+<div id="brickStart3">
+	<img src="Images/stack of brick.png" id="brickStack3" draggable="true" ondragstart="drag(event)"></div>
+<div id="brickStart4">
+	<img src="Images/stack of brick.png" id="brickStack4" draggable="true" ondragstart="drag(event)"></div>
+
+
+</body>
+</html>

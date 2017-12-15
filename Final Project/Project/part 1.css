@@ -1,0 +1,192 @@
+#storyButton{
+	width:400px;
+	height:100px;
+	position:absolute;
+	left:440px;
+	top:400px;
+	z-index: 1;
+	text-align: left;
+	background:white;
+	border:2px solid black;
+}
+#smallText{
+	float:right;
+	float:bottom;
+	font-size:8px;
+	font-style:italic;
+}
+#strawButton{
+
+}
+#stickButton{
+position:absolute;
+left:567px;
+}
+#brickButton{
+	position:absolute;
+right:95px;
+}
+#strawStackHolder{
+	width:100;
+}
+#stickStackHolder{
+position:absolute;
+left:557px;
+}
+#brickStackHolder{
+	position:absolute;
+	float:right;
+	right:10px;
+	width:290px;
+}
+#strawStack{
+width:200px;
+height:200px;
+top:200px;
+position:absolute;
+}
+#stickStack{
+width:200px;
+height:200px;
+top:290px;
+left:527px;
+position:absolute;
+}
+#brickStack{
+width:200px;
+height:200px;
+top:200px;
+position:absolute;
+right:60px;
+}
+#strawDiv1,#strawDiv2{
+	position:relative;
+    float: left;
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+#stickDiv1,#stickDiv2,#stickDiv3{
+	position: relative;
+	float:middle;
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+#brickDiv1,#brickDiv2,#brickDiv3,#brickDiv4{
+	position: relative;
+	float:left;
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+.startingPos{
+	width:100px;
+	height:35px;
+	margin:10px;
+	padding:10px;
+	position: relative;
+	top:50%;
+	left:50%;
+}
+#strawStack1,#strawStack2,#stickStack1,#stickStack2,#stickStack3,#brickStack1,#brickStack2,#brickStack3,#brickStack4{
+	width: 100px;
+	height: 50px;
+}
+#strawStart1{
+	width:100px;
+	height:35px;
+	margin:10px;
+	padding:10px;
+	position: relative;
+	top:0px;
+	left:400px;
+}
+#strawStart2{
+	width:100px;
+	height:35px;
+	margin:10px;
+	padding:10px;
+	position: relative;
+	top:100px;
+	left:10%;
+}
+#stickStart1{
+	width:100px;
+	height:35px;
+	margin:10px;
+	padding:10px;
+	position: relative;
+	top:50px;
+	left:200px;
+}
+#stickStart2{
+	width:100px;
+	height:35px;
+	margin:10px;
+	padding:10px;
+	position: relative;
+	top:100px;
+	left:700px;
+}
+#stickStart3{
+	width:100px;
+	height:35px;
+	margin:10px;
+	padding:10px;
+	position: relative;
+	top:200px;
+	left:500px;	
+}
+#brickStart1{
+	width:100px;
+	height:35px;
+	margin:10px;
+	padding:10px;
+	position: relative;
+	top:0px;
+	left:0px;	
+}
+#brickStart2{
+	width:100px;
+	height:35px;
+	margin:10px;
+	padding:10px;
+	position: relative;
+	top:50px;
+	left:800px;	
+}
+#brickStart3{
+	width:100px;
+	height:35px;
+	margin:10px;
+	padding:10px;
+	position: relative;
+	top:0px;
+	left:100px;	
+}
+#brickStart4{
+	width:100px;
+	height:35px;
+	margin:10px;
+	padding:10px;
+	position: relative;
+	top:-300px;
+	left:900px;	
+}
+#nextPage{
+	position:absolute;
+	right:3%;
+	bottom:5%;
+}
+a:link, a:visited{
+	color:black;
+	text-decoration:none;
+	font-size: 16px;
+}
